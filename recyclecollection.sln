@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recyclecollection", "recyclecollection\recyclecollection.csproj", "{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55C6A61C-28A7-4F5F-9052-0B43EEDE7CE3}
+	EndGlobalSection
+EndGlobal
