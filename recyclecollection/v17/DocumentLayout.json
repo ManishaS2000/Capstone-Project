@@ -1,0 +1,443 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\revenuedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\revenuedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\lanfilldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\lanfilldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\datacollectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\datacollectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\adduserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\adduserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\landfill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\landfill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\datacollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\datacollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\landfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\landfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\controllers\\landfillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\controllers\\landfillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\landfill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\wwwroot\\css\\landfill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\adduser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\wwwroot\\css\\adduser.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\controllers\\datacollectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\controllers\\datacollectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\datacollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\datacollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\home\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|c:\\users\\s563120\\source\\repos\\recyclecollection\\recyclecollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5006B33D-B5DE-4A6D-9776-1D7EFE123CCB}|recyclecollection\\recyclecollection.csproj|solutionrelative:recyclecollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logindb.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Logindb.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Logindb.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Logindb.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Logindb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:49:05.963Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddUserdb.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\AddUserdb.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\AddUserdb.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\AddUserdb.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\AddUserdb.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:33:26.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Adduser.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Adduser.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Adduser.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Adduser.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Adduser.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:31:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\AddUser.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\AddUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T22:28:01.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Datacollection.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Datacollection.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\Datacollection.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Datacollection.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\Datacollection.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T13:55:12.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lanfilldb.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\lanfilldb.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\lanfilldb.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\lanfilldb.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\lanfilldb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:47:00.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "landfill.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\landfill.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\landfill.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\landfill.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\landfill.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T14:50:34.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Datacollectiondb.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Datacollectiondb.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Datacollectiondb.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Datacollectiondb.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Datacollectiondb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:33:00.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Revenuedb.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Revenuedb.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Revenuedb.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Revenuedb.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Revenuedb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:28:37.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usercontroller.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\Usercontroller.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Controllers\\Usercontroller.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\Usercontroller.cs",
+              "RelativeToolTip": "recyclecollection\\Controllers\\Usercontroller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:38:27.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RevenueController.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\RevenueController.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Controllers\\RevenueController.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\RevenueController.cs",
+              "RelativeToolTip": "recyclecollection\\Controllers\\RevenueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:38:48.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\homepage.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\homepage.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\homepage.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\homepage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T21:56:24.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Revenue.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Revenue.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\Revenue.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Revenue.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\Revenue.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T14:35:27.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "landfill.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\landfill.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\landfill.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\landfill.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\landfill.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:45:50.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "landfillController.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\landfillController.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Controllers\\landfillController.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\landfillController.cs",
+              "RelativeToolTip": "recyclecollection\\Controllers\\landfillController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:52:53.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "landfill.css",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\landfill.css",
+              "RelativeDocumentMoniker": "recyclecollection\\wwwroot\\css\\landfill.css",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\landfill.css",
+              "RelativeToolTip": "recyclecollection\\wwwroot\\css\\landfill.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T15:02:29.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Adduser.css",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\Adduser.css",
+              "RelativeDocumentMoniker": "recyclecollection\\wwwroot\\css\\Adduser.css",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\Adduser.css",
+              "RelativeToolTip": "recyclecollection\\wwwroot\\css\\Adduser.css",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T22:53:40.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Revenue.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Revenue.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Revenue.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Revenue.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Revenue.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:26:35.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Datacollectioncontroller.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\Datacollectioncontroller.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Controllers\\Datacollectioncontroller.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\Datacollectioncontroller.cs",
+              "RelativeToolTip": "recyclecollection\\Controllers\\Datacollectioncontroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:41:03.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Datacollection.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Datacollection.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Datacollection.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Datacollection.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Datacollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:29:26.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T21:49:39.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "recyclecollection\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "recyclecollection\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T21:46:57.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Program.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Program.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Program.cs",
+              "RelativeToolTip": "recyclecollection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:59:05.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "recyclecollection\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:45:52.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Loginpage.cshtml",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Loginpage.cshtml",
+              "RelativeDocumentMoniker": "recyclecollection\\Views\\Home\\Loginpage.cshtml",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Views\\Home\\Loginpage.cshtml",
+              "RelativeToolTip": "recyclecollection\\Views\\Home\\Loginpage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T20:39:09.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "recyclecollection\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\S563120\\source\\repos\\recyclecollection\\recyclecollection\\Models\\Login.cs",
+              "RelativeToolTip": "recyclecollection\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:43:05.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+﻿body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Makes the body take the full height of the viewport */
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background for the page */
+    font-family: Arial, sans-serif; /* Font for better readability */
+}
+
+h2 {
+    text-align: center; /* Centers the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+form {
+    background-color: white; /* White background for the form */
+    padding: 30px; /* Add padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 320px; /* Set a fixed width for the form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Adds space between form groups */
+}
+
+label {
+    display: block; /* Makes the label a block element */
+    margin-bottom: 5px; /* Adds space below the label */
+    font-weight: bold; /* Makes label text bold */
+}
+
+input {
+    display: block;
+    width: calc(100% - 20px); /* Full width for inputs minus padding */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Margin for spacing between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for better readability */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+    input:focus {
+        border-color: #007bff; /* Change border color on focus */
+        outline: none; /* Remove default outline */
+    }
+
+button {
+    display: block;
+    width: calc(100% - 20px); /* Full width for button minus padding */
+    padding: 10px; /* Padding inside the button */
+    margin: 10px 0; /* Margin for spacing */
+    background-color: #007bff; /* Blue background for button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+    button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
