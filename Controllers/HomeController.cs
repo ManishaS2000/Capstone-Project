@@ -11,12 +11,13 @@ namespace recyclecollection.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly Logindb _dbop; // Declare _dbop for login operations
-
+        private readonly Userlogindb _dbop1;
         // Constructor to accept ILogger and Db instances
-        public HomeController(ILogger<HomeController> logger, Logindb db)
+        public HomeController(ILogger<HomeController> logger, Logindb db , Userlogindb ub)
         {
             _logger = logger;
             _dbop = db; // Assign the db parameter to _dbop
+            _dbop1 = ub;
 
         }
 
@@ -58,9 +59,49 @@ namespace recyclecollection.Controllers
         }
 
 
+        public IActionResult Userlogin()
+        {
+            return View("Userlogin"); // Return the login view
+        }
+
+        [HttpPost]
+        public IActionResult Index1([Bind] UserLogin loginModel)
+        {
+            if (ModelState.IsValid) // Check if the login model is valid
+            {
+                int res = _dbop1.Login(loginModel);
+                if (res == 1)
+                {
+                    TempData["msg"] = "Welcome to the User Page";
+                    return RedirectToAction("UserHomepage"); // Redirect to Userhomepage on success
+                }
+                else
+                {
+                    TempData["msg"] = "User ID or Password is wrong!";
+                }
+            }
+            return View("Userlogin"); // Return the login view with validation errors
+        }
+
+
         public IActionResult homepage()
         {
             return View(); // Return the dashboard view
+        }
+
+        public IActionResult UserHomepage()
+        {
+            return View("~/Views/Home/UserHomepage.cshtml"); // Return the dashboard view
+        }
+
+        public IActionResult logout()
+        {
+            return View("~/Views/Home/Loginpage.cshtml");
+        }
+
+        public IActionResult logout1()
+        {
+            return View("~/Views/Home/Userlogin.cshtml");
         }
     }
 }
