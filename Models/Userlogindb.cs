@@ -3,11 +3,11 @@ using System.Data.SqlClient;
 
 namespace recyclecollection.Models
 {
-    public class Logindb
+    public class Userlogindb
     {
         SqlConnection con = new SqlConnection("Data Source=NW59287;Initial Catalog=RECYCLEMANAGEMENT;Integrated Security=True");
 
-        public int Login(Login ad)
+        public int Login(UserLogin ad)
         {
             try
             {
@@ -16,7 +16,7 @@ namespace recyclecollection.Models
                     com.CommandType = CommandType.StoredProcedure;
                     com.Parameters.AddWithValue("@User_id", ad.User_id);
                     com.Parameters.AddWithValue("@Password", ad.Password);
-                    com.Parameters.AddWithValue("@Usertype", 1);
+                    com.Parameters.AddWithValue("@Usertype", 0);
 
                     SqlParameter oblogin = new SqlParameter
                     {

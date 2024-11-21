@@ -5,7 +5,7 @@ namespace recyclecollection.Models
 {
     public class Revenuedb
     {
-        SqlConnection con = new SqlConnection("Data Source=serveraddress;Initial Catalog=ROCK;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=NW59287;Initial Catalog=RECYCLEMANAGEMENT;Integrated Security=True");
         public string InsertRevenue(Revenue rs, out string msg)
         {
             msg = "";

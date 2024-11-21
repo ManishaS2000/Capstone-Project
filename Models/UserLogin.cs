@@ -1,6 +1,6 @@
 ﻿namespace recyclecollection.Models
 {
-    public class Login
+    public class UserLogin
     {
         public required string User_id { get; set; }
 
