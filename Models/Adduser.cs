@@ -1,4 +1,4 @@
-﻿namespace recyclecollection.Models
+namespace recyclecollection.Models
 {
     public class Adduser
     {
@@ -13,3 +13,4 @@
         public int UserType { get; set; } // 0 for User, 1 for Admin
     }
 }
+
