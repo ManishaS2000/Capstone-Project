@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Waste Diversion Report";
+}
+
+<h2>Waste Diversion Report</h2>
+
+<div>
+    <button id="exportExcel" class="btn btn-primary">Export to Excel</button>
+</div>
+
+<script>
+    document.getElementById('exportExcel').addEventListener('click', function () {
+        window.location.href = '/Reporting/ExportWasteDiversionToExcel';
+    });
+</script>

@@ -1,0 +1,64 @@
+﻿@model recyclecollection.Models.Login
+@{
+    ViewData["Title"] = "Admin Login Page";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            background-image: url('../Newlogo.png');
+            background-size: cover; /* Makes the image cover the entire page */
+            background-position: center center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent repeating of the image */
+            height: 100vh; /* Make the body take the full height of the viewport */
+            margin: 0;
+        }
+
+        .Admin-container {
+            margin-left: 700px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="Admin-container">
+        <h1> Admin Login</h1>
+        <form asp-controller="Home" asp-action="Index" method="post">
+            <div>
+                <label for="userId">User ID</label>
+                <input type="text" id="userId" name="User_id" placeholder="Enter your Admin ID" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="Password" placeholder="Enter your Password" required>
+            </div>
+            <button type="submit">Log In</button>
+
+            <div>
+                <label>User Login:</label>
+                <p class="user-login-text">Click below for User Login</p>
+                <a href="@Url.Action("Userlogin", "Home")" class="user-login-button">User Login</a>
+            </div>
+
+        </form>
+    </div>
+
+
+    @if (TempData["msg"] != null)
+    {
+        <script>
+            alert('@TempData["msg"]');
+        </script>
+    }
+</body>
+</html>

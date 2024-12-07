@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        fetch('/api/reports/waste-by-type')
+            .then(response => response.json())
+            .then(data => {
+                const labels = data.map(d => d.WasteType);
+                const values = data.map(d => d.TotalWeight);
+
+                const ctx = document.getElementById('wastePieChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            backgroundColor: ['#ff6384', '#36a2eb', '#ffce56'],
+                        }]
+                    },
+                });
+            });
+    </script>
+}

@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Waste by Type Chart";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Optional: Set the container for the chart to control responsiveness */
+        #chartContainer {
+            width: 80%; /* Control the width of the chart */
+            height: 500px; /* Control the height of the chart */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Waste by Type</h1>
+
+    <div id="chartContainer">
+        <canvas id="wasteChart"></canvas>
+    </div>
+
+    <script>
+        // Fetch data from the API endpoint
+        fetch('/Reporting/GetWasteByType')
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Log for debugging
+
+                // Get the canvas element
+                var ctx = document.getElementById('wasteChart').getContext('2d');
+
+                // Render the pie chart
+                var wasteChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: data.map(item => item.wasteType),
+                        datasets: [{
+                            data: data.map(item => item.totalWeight),
+                            backgroundColor: ['#FF6347', '#3393ff', '#32CD32'],
+                            borderColor: '#fff',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,  // Ensures the chart is responsive
+                        maintainAspectRatio: false,  // Allows custom size
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching data:", error); // Log any errors
+            });
+    </script>
+</body>
+</html>

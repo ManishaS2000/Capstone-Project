@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Reporting Graphs";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting Graphs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Container for each chart to ensure it resizes properly */
+        .chart-container {
+            width: 80%; /* Set width to 80% of container */
+            max-width: 800px; /* Limit max width to 800px */
+            margin: 0 auto; /* Center the chart horizontally */
+            margin-bottom: 50px; /* Space between charts */
+            height: 400px;
+        }
+
+        /* Canvas element styles to make it responsive */
+        canvas {
+            width: 100% !important; /* Make canvas take up full width of container */
+            height: 300px !important; /* Set a fixed height for each chart */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reporting Graphs</h1>
+
+    <!-- Graph 1: Recyclables Weight by Type — Monthly -->
+    <div class="chart-container">
+        <h2>1. Recyclables Weight by Type — Monthly</h2>
+        <canvas id="recyclablesChart"></canvas>
+    </div>
+
+    <!-- Graph 2: Landfill, Food Waste Compost, Recycling Weights — Monthly -->
+    <div class="chart-container">
+        <h2>2. Landfill, Food Waste Compost, Recycling Weights — Monthly</h2>
+        <canvas id="wasteWeightsChart"></canvas>
+    </div>
+
+    <!-- Graph 3: Diversion Rate — Monthly -->
+    <div class="chart-container">
+        <h2>3. Diversion Rate — Monthly</h2>
+        <canvas id="diversionRateChart"></canvas>
+    </div>
+
+    <!-- Graph 4: Revenue — Monthly -->
+    <div class="chart-container">
+        <h2>4. Revenue — Monthly</h2>
+        <canvas id="revenueChart"></canvas>
+    </div>
+
+    <script>
+        // Fetch and render each chart using APIs from the ReportingController
+
+        // Graph 1: Recyclables Weight by Type — Monthly
+        fetch('/Reporting/GetRecyclablesWeightByMonth')
+            .then(response => response.json())
+            .then(data => {
+                const aggregatedData = {};
+                data.forEach(item => {
+                    const month = item.month;
+                    const category = item.category;
+                    const totalWeight = item.totalWeight;
+
+                    if (!aggregatedData[month]) {
+                        aggregatedData[month] = {};
+                    }
+
+                    if (!aggregatedData[month][category]) {
+                        aggregatedData[month][category] = 0;
+                    }
+
+                    aggregatedData[month][category] += totalWeight;
+                });
+
+                const months = Object.keys(aggregatedData);
+                const categories = [...new Set(data.map(item => item.category))];
+
+                const datasets = categories.map(category => {
+                    return {
+                        label: category,
+                        data: months.map(month => aggregatedData[month][category] || 0),
+                        borderWidth: 1
+                    };
+                });
+
+                const ctx = document.getElementById('recyclablesChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: months.map(month => `Month ${month}`),
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,  // Allows flexibility in resizing
+                        plugins: {
+                            legend: {
+                                position: 'top'
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+
+        // Graph 2: Landfill, Food Waste Compost, Recycling Weights — Monthly
+        fetch('/Reporting/GetMonthlyTotalWeights')
+            .then(response => response.json())
+            .then(data => {
+                const labels = data.map(item => item.month);
+                const landfillWeights = data.map(item => item.landfillWeight || 0);
+                const foodWasteWeights = data.map(item => item.foodWasteWeight || 0);
+                const recyclingWeights = data.map(item => item.recyclingWeight || 0);
+
+                const ctx = document.getElementById('wasteWeightsChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Landfill Weight',
+                                data: landfillWeights,
+                                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                                borderColor: 'rgba(255, 99, 132, 1)',
+                                borderWidth: 1
+                            },
+                            {
+                                label: 'Food Waste Weight',
+                                data: foodWasteWeights,
+                                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                borderWidth: 1
+                            },
+                            {
+                                label: 'Recycling Weight',
+                                data: recyclingWeights,
+                                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                borderWidth: 1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'top' },
+                            title: { display: true, text: 'Monthly Waste Weights (Landfill, Food Waste, Recycling)' }
+                        },
+                        scales: {
+                            x: { beginAtZero: true },
+                            y: { beginAtZero: true }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+
+        // Graph 3: Diversion Rate — Monthly
+        fetch('/Reporting/GetDiversionRate')
+            .then(response => response.json())
+            .then(data => {
+                const ctx = document.getElementById('diversionRateChart').getContext('2d');
+
+                const monthNames = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"];
+
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.map(item => monthNames[item.month - 1]),
+                        datasets: [{
+                            label: 'Diversion Rate',
+                            data: data.map(item => item.diversionRate),
+                            borderColor: '#4B0082',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'top' }
+                        },
+                        scales: {
+                            x: { title: { display: true, text: 'Month' } },
+                            y: { title: { display: true, text: 'Diversion Rate' } }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+
+        // Graph 4: Revenue — Monthly
+        fetch('/Reporting/GetRevenueByMonth')
+            .then(response => response.json())
+            .then(data => {
+                const ctx = document.getElementById('revenueChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: data.map(item => `Month ${item.month}`),
+                        datasets: [{
+                            label: 'Revenue',
+                            data: data.map(item => item.totalRevenue),
+                            backgroundColor: '#87CEEB',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { position: 'top' } }
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
